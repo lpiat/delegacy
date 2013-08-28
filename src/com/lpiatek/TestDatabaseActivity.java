@@ -23,12 +23,12 @@ public class TestDatabaseActivity extends ListActivity {
         per.setLastName("lastnejmski");
         per.setFirstName("firstnejmski");
     }
-
-    public void doLaunchContactPicker(View view) {
-        Intent contactPickerIntent = new Intent(Intent.ACTION_PICK,
-                Contacts.CONTENT_URI);
-        startActivityForResult(contactPickerIntent, CONTACT_PICKER_RESULT);
-    }
+//
+//    public void doLaunchContactPicker(View view) {
+//        Intent contactPickerIntent = new Intent(Intent.ACTION_PICK,
+//                Contacts.CONTENT_URI);
+//        startActivityForResult(contactPickerIntent, CONTACT_PICKER_RESULT);
+//    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -66,9 +66,6 @@ public class TestDatabaseActivity extends ListActivity {
                     adapter.remove(person);
                 }
                 break;
-            case R.id.startContacts:
-
-
         }
         adapter.notifyDataSetChanged();
     }

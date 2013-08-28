@@ -5,4 +5,44 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Delegations"
+            android:id="@+id/button_delegation"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Person"
+            android:id="@+id/button_person"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Event"
+            android:id="@+id/event_button"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Trip"
+            android:id="@+id/trip_button"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:id="@+id/settings_button"/>
+    <ProgressBar
+            android:layout_width="fill_parent"
+            android:layout_height="63dp"
+            android:id="@+id/progressBar"/>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="testpersonadding"
+                android:id="@+id/person_test_button"
+                android:layout_gravity="center_horizontal|top"/>
+    </TableRow>
 </LinearLayout>

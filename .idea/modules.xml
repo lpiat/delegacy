@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Delegacy.iml" filepath="$PROJECT_DIR$/Delegacy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/delegacy.iml" filepath="$PROJECT_DIR$/delegacy.iml" />
     </modules>
   </component>
 </project>
