@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <EditText
+            android:id="@+id/editDelegationName"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <requestFocus/>
+    </EditText>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#2a2a2a"
+        android:layout_marginTop="25dip">
+    <TextView
+            android:id="@+id/startDateDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Start Date"/>
+    <Button
+            android:id="@+id/pickStartDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Change"/>
+</LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#2a2a2a"
+            android:layout_marginTop="25dip">
+        <TextView
+                android:id="@+id/endDateDisplay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="end Date"/>
+        <Button
+                android:id="@+id/pickEndDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="Change"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#2a2a2a"
+            android:layout_marginTop="25dip">
+        <TextView
+                android:id="@+id/personName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="not set"/>
+        <Button
+                android:id="@+id/pickPersonName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="Set Person"/>
+    </LinearLayout>
+    <Button
+            android:id="@+id/delegationSaveButtton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"/>
+
+</LinearLayout>
